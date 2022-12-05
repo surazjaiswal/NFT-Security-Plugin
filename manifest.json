@@ -9,5 +9,8 @@
   "icons": {
     "128": "logo.png"
   },
-  "permissions": ["activeTab"]
+  "permissions": ["activeTab","webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+    "scripts": ["bg.js"]
+  }
 }
