@@ -1,0 +1,19 @@
+body {
+  width: auto;
+  height: auto ;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+p {
+  font-family: cursive;
+  display: inner-flex;
+  margin: auto 2px;
+  font-size: 20px;
+  color: black;
+  border-radius: 10px;
+  border: 2px solid rgb(255, 1, 1);
+  padding: 5px;
+}
